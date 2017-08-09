@@ -3,7 +3,6 @@ DAYS=14 # range between 1 to 17 extreme included
 URL="http://api.openweathermap.org/data/2.5/forecast/daily?q=%s&units=metric&cnt=%d&APPID=%s"
 APP_ID="0e83edfb1541cb66a71db49f12ac7e98"
 
-from datetime import datetime
 from collections import Counter
 import requests
 
