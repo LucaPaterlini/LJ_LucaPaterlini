@@ -1,7 +1,7 @@
 ## Test Usage
 
 ```
- python weather_test.py 
+ python3 weather_test.py
 ```
 
 ## Description
@@ -23,7 +23,7 @@ to install it
 ```
 to compile the code run
 ```
- python weather.py build_ext --inplace
+ python3 setup.py build_ext --inplace
 ```
 In this specific case due to dependancy to the
 latency of the net,the improvements are minimum
